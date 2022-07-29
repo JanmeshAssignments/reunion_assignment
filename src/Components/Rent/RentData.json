@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Ronnie's Cafe",
+    "location": "Delhi",
+    "price": "8000",
+    "property": "Cafe"
+  },
+  {
+    "id": 2,
+    "name": "Dark Eat",
+    "location": "Banglore",
+    "price": "8000",
+    "property": "Cafe"
+  },
+  {
+    "id": 3,
+    "name": "Rajesh's Villa",
+    "location": "Delhi",
+    "price": "18000",
+    "property": "Villa"
+  },
+  {
+    "id": 4,
+    "name": "Sahara Delhi Residency",
+    "location": "Aligarh",
+    "price": "10000",
+    "property": "Apartment"
+  },
+  {
+    "id": 5,
+    "name": "Green Park Apartments",
+    "location": "Delhi",
+    "price": "15000",
+    "property": "Apartment"
+  },
+  {
+    "id": 6,
+    "name": "Tech world",
+    "location": "Banglore",
+    "price": "20000",
+    "property": "Office"
+  },
+  {
+    "id": 7,
+    "name": "Robin's Cafe",
+    "location": "Hyderabad",
+    "price": "5000",
+    "property": "Cafe"
+  },
+  {
+    "id": 8,
+    "name": "Dharamshala",
+    "location": "Gandhi Nagar",
+    "price": "5000",
+    "property": "House"
+  },
+  {
+    "id": 9,
+    "name": "Shree Krishna Resort",
+    "location": "Hyderabad",
+    "price": "20000",
+    "property": "Resort"
+  },
+  {
+    "id": 10,
+    "name": "Lovely Residence",
+    "location": "Mumbai",
+    "price": "5000",
+    "property": "House"
+  },
+  {
+    "id": 11,
+    "name": "Din Dayal Apartments",
+    "location": "Hyderabad",
+    "price": "15000",
+    "property": "Apartment"
+  }
+]
