@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@mui/material";
 import { Container } from "@mui/system";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import MediaCard from "./MediaCard";
 import RentData from "./RentData.json";
 const Rent = () => {
@@ -40,6 +40,15 @@ const Rent = () => {
       ...updatedData,
     }));
   };
+  const prefix_match = (given, actual) => {
+    given = given.toLowerCase();
+    actual = actual.toLowerCase();
+
+    for (let i = 0; i < given.length; i++) {
+      if (given[i] !== actual[i]) return false;
+    }
+    return true;
+  };
   const handlesearch = () => {
     let temp = [];
     const { location, minPrice, maxPrice, property, name } = search_data;
@@ -48,7 +57,7 @@ const Rent = () => {
       if (location === element.location || location === "Select") {
         if (element.price >= minPrice && element.price <= maxPrice) {
           if (property === element.property || property === "Select") {
-            if (name.trim() === "" || name.trim() === element.name) {
+            if (name.trim() === "" || prefix_match(name.trim(), element.name)) {
               temp.push(element);
             }
           }
@@ -57,6 +66,11 @@ const Rent = () => {
     }
     setData(temp);
   };
+  useEffect(() => {
+    handlesearch();
+    // eslint-disable-next-line
+  }, [search_data]);
+
   return (
     <div>
       <Container

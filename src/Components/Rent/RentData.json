@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "img_link": "https://imgur.com/mUeaBz6.jpg",
     "name": "Ronnie's Cafe",
     "location": "Delhi",
     "price": "8000",
@@ -8,6 +9,7 @@
   },
   {
     "id": 2,
+    "img_link": "https://imgur.com/OKLISuB.jpg",
     "name": "Dark Eat",
     "location": "Banglore",
     "price": "8000",
@@ -15,6 +17,7 @@
   },
   {
     "id": 3,
+    "img_link": "https://imgur.com/721jwix.jpg",
     "name": "Rajesh's Villa",
     "location": "Delhi",
     "price": "18000",
@@ -22,6 +25,7 @@
   },
   {
     "id": 4,
+    "img_link": "https://imgur.com/TgloYBT.jpg",
     "name": "Sahara Delhi Residency",
     "location": "Aligarh",
     "price": "10000",
@@ -30,6 +34,7 @@
   {
     "id": 5,
     "name": "Green Park Apartments",
+    "img_link": "https://imgur.com/egkLJVm.jpg",
     "location": "Delhi",
     "price": "15000",
     "property": "Apartment"
@@ -37,12 +42,14 @@
   {
     "id": 6,
     "name": "Tech world",
+    "img_link": "https://imgur.com/HlsKFi0.jpg",
     "location": "Banglore",
     "price": "20000",
     "property": "Office"
   },
   {
     "id": 7,
+    "img_link": "https://imgur.com/g5tEWsf.jpg",
     "name": "Robin's Cafe",
     "location": "Hyderabad",
     "price": "5000",
@@ -50,13 +57,15 @@
   },
   {
     "id": 8,
-    "name": "Dharamshala",
+    "name": "Shahrukh's Mannat",
+    "img_link": "https://imgur.com/4t4cyu5.jpg",
     "location": "Gandhi Nagar",
     "price": "5000",
     "property": "House"
   },
   {
     "id": 9,
+    "img_link": "https://imgur.com/PfSFoWF.jpg",
     "name": "Shree Krishna Resort",
     "location": "Hyderabad",
     "price": "20000",
@@ -64,6 +73,7 @@
   },
   {
     "id": 10,
+    "img_link": "https://imgur.com/ODmowes.jpg",
     "name": "Lovely Residence",
     "location": "Mumbai",
     "price": "5000",
@@ -71,6 +81,7 @@
   },
   {
     "id": 11,
+    "img_link": "https://imgur.com/pk8kvyO.jpg",
     "name": "Din Dayal Apartments",
     "location": "Hyderabad",
     "price": "15000",
